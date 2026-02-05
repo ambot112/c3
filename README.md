@@ -91,6 +91,8 @@ project.
     -   `hook_form_alter()`
 -   Hooks are used to alter the **body field value** before content is
     saved or displayed
+-   This also have field formatter that renders the value of the text as raw.
+    Good to display embeded code.
 
 ------------------------------------------------------------------------
 
