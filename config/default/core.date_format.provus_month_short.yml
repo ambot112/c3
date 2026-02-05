@@ -1,0 +1,10 @@
+uuid: 69459a9a-9947-493b-99f3-c435f64209e5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cZT2h18Mmrzqm9O6Kf09BvIUc0FlrlB49PTRSBr2ibk
+id: provus_month_short
+label: 'Month | Short'
+locked: false
+pattern: M

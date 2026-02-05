@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: vn-w6DgcTi_hDRzWLiMq6FeYDRUs2Co-MnAsva31Czo
+status: 2
+pattern: 'Slideshow - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+chunk: 50
+dependencies:
+  config:
+    - block_content.type.provus_slideshow
+new_content_behavior: 0

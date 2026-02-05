@@ -1,0 +1,24 @@
+uuid: 56c5412a-0ec2-4576-b94f-b23608cd5d9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_embed_code
+    - filter.format.plain_text
+    - node.type.provus_blog
+  module:
+    - text
+id: node.provus_blog.field_embed_code
+field_name: field_embed_code
+entity_type: node
+bundle: provus_blog
+label: 'Embed Code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - plain_text
+field_type: text_long

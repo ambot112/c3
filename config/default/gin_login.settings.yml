@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: vbwQMbqBfFVnMhuSfbrWWzl8wsD0QWY3TWHuNuzcD14
+logo:
+  use_default: false
+  path: themes/custom/cerian/logo.png
+brand_image:
+  use_default: true

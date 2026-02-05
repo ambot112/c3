@@ -1,0 +1,43 @@
+uuid: 7f056566-29c9-4c4a-9db5-5163e68cf05e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.provus_blog.body
+    - field.field.node.provus_blog.field_embed_code
+    - field.field.node.provus_blog.field_metatag
+    - node.type.provus_blog
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 3Bqs3d0bs_fr-_VsLRRdKUIM0TEw-8QsfVrE2uY-Pyo
+id: node.provus_blog.teaser
+targetEntityType: node
+bundle: provus_blog
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_embed_code: true
+  field_metatag: true
+  search_api_excerpt: true

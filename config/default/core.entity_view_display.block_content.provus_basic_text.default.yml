@@ -1,0 +1,34 @@
+uuid: 0d6f5d4c-6e4d-4a21-8c3e-0c38b5d38ace
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.provus_basic_text
+    - field.field.block_content.provus_basic_text.field_provus_body
+    - field.field.block_content.provus_basic_text.field_provus_title
+  module:
+    - text
+_core:
+  default_config_hash: XUKjzXTlbwb5RHFjx0vTzBD5QmV-1Bz-UkOWKEwX3cE
+id: block_content.provus_basic_text.default
+targetEntityType: block_content
+bundle: provus_basic_text
+mode: default
+content:
+  field_provus_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_provus_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

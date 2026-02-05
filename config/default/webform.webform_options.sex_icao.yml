@@ -1,0 +1,17 @@
+uuid: f42e6210-f976-4e29-a5c6-6c1fed6114e3
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 3IWlOdFJVlnNayr82awg1Oa2y830hWQsRfOZcsaQ5QQ
+id: sex_icao
+label: 'Sex - International Civil Aviation Organization (ICAO)'
+category: Demographic
+likert: false
+options: |
+  M: Male
+  F: Female
+  X: Unspecified

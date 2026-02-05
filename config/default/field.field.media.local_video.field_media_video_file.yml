@@ -1,0 +1,29 @@
+uuid: d26e33ae-626a-4725-a25f-03ffb02f0b30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_video_file
+    - media.type.local_video
+  module:
+    - file
+_core:
+  default_config_hash: 8evUTVSWtFWJGeH4pH2SJWmkDI1okJZrRTt01tG2_TM
+id: media.local_video.field_media_video_file
+field_name: field_media_video_file
+entity_type: media
+bundle: local_video
+label: 'Video file'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: mp4
+  max_filesize: ''
+  description_field: false
+field_type: file

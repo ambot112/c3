@@ -1,0 +1,40 @@
+uuid: 32b32adc-778a-4256-b5c1-e634892fe500
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: gcTlfIZcGwyzdNKOvU5FnBk9pLkqWh83RoS0KSpu4Oc
+format: basic_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - bold
+      - italic
+      - '|'
+      - link
+      - bulletedList
+      - numberedList
+      - blockQuote
+      - drupalMedia
+  plugins:
+    ckeditor5_list:
+      reversed: true
+      startIndex: true
+    linkit_extension:
+      linkit_enabled: true
+      linkit_profile: default
+    media_media:
+      allow_view_mode_override: false
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: 0
+    height: 0

@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK() for menu__main.
+ */
+function cerian_preprocess_menu__main(&$variables) {
+  $navItems = [];
+  foreach ($variables['items'] as $item) {
+    $navItems[] = [
+      'label' => $item['title'],
+      'url' => $item['url']->toString(),
+    ];
+  }
+
+  // Get the path to the theme's logo and add it to drupalSettings.
+  $logo_path = theme_get_setting('logo.url');
+  if ($logo_path) {
+    $variables['#attached']['drupalSettings']['cerian']['header']['logoUrl'] = $logo_path;
+  }
+
+  // Add the processed navigation items to DrupalSettings.
+  $variables['#attached']['drupalSettings']['cerian']['header']['navItems'] = $navItems;
+}
+
+function cerian_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'vuejs/vue';
+}

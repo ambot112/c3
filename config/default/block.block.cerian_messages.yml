@@ -1,0 +1,22 @@
+uuid: ef5082f8-2770-4c94-97b3-f6ae65f6c545
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cerian
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: cerian_messages
+theme: cerian
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: 5b683d69-dff4-4aaf-b203-02343f440564
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: xJW-KpUn4zOIQdRSiYUinORtEsjAWylJEsYy89yQikg
+id: block_content.provus_card_right
+label: 'Card Image Right'
+description: null
+targetEntityType: block_content
+cache: true

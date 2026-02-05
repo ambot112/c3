@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: 5g0pmQPT5sVYinf-Q4sRJ0Swx35wX1QMq91O7upTvMA
+status: 2
+pattern: '[block_content:field_provus_title] (Card) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_card
+chunk: '50'
+new_content_behavior: 0

@@ -1,0 +1,45 @@
+senior_portal.program_list:
+  path: '/umass_api/api/program-list'
+  defaults:
+    _controller: '\Drupal\senior_portal\Controller\ApiController::programListing'
+    _title: 'UMass API Program List'
+  requirements:
+    _access: 'TRUE'
+  options:
+    _admin_route: FALSE
+    no_cache: TRUE
+
+senior_portal.credits_cost_list:
+  path: '/umass_api/api/credits-and-cost-list'
+  defaults:
+    _controller: '\Drupal\senior_portal\Controller\ApiController::creditsAndCost'
+    _title: 'UMass API Credits And Cost'
+    military: FALSE
+  requirements:
+    _access: 'TRUE'
+  options:
+    _admin_route: FALSE
+    no_cache: TRUE
+
+senior_portal.credits_cost_list_discounted:
+  path: '/umass_api/api/credits-and-cost-list-discounted'
+  defaults:
+    _controller: '\Drupal\senior_portal\Controller\ApiController::creditsAndCost'
+    _title: 'UMass API Credits And Cost Discounted'
+    military: TRUE
+  requirements:
+    _access: 'TRUE'
+  options:
+    _admin_route: FALSE
+    no_cache: TRUE
+
+senior_portal.block_config:
+  path: '/umass_api/api/block_config'
+  defaults:
+    _controller: '\Drupal\senior_portal\Controller\ApiController::blockConfig'
+    _title: 'UMass API Block Configuration'
+  requirements:
+    _access: 'TRUE'
+  options:
+    _admin_route: FALSE
+    no_cache: TRUE

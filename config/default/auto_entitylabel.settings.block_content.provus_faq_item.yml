@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: fBl2MbcZ_HHyv9BbvgdHWvmfHmPPjF8g_KCUZ83GqUA
+status: 1
+pattern: '[block_content:field_provus_title] (FAQ Item) - [random:number]'
+escape: false
+preserve_titles: false
+dependencies:
+  config:
+    - block_content.type.provus_faq_item
+save: 0
+chunk: '50'

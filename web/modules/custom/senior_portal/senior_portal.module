@@ -1,0 +1,46 @@
+<?php
+
+use Drupal\node\Form\NodeForm;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_entity_insert().
+ */
+function senior_portal_entity_presave(EntityInterface $entity) {
+  // Force body value.
+  if ($entity->getEntityTypeId() === 'node' &&$entity->hasField('body')) {
+
+    $entity->set('body', [
+      'value' => 'This body content is forcely added upon saving.',
+      'format' => 'full_html',
+    ]);
+  }
+}
+
+
+/**
+ * Implements hook_form_alter().
+ */
+function senior_portal_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  $build_info = $form_state->getBuildInfo();
+
+  if (
+    isset($build_info['callback_object']) &&
+    $build_info['callback_object'] instanceof NodeForm
+  ) {
+
+    // Check if the node actually has a body field.
+    if (!isset($form['body'])) {
+        return;
+    }
+
+    // Check if body field exists.
+    if (isset($form['body']['widget'][0])) {
+
+      $form['body']['widget'][0]['#description'] =
+        t('Any value of this body field will be overridden upon saving.');
+
+    }
+  }
+}

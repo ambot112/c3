@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: SZAWmSSiN_c7BokYbGKplGbUN8X6En2VYwyM0vMWD74
+status: 2
+pattern: '(Tabs) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_tabs
+chunk: '50'
+new_content_behavior: 0

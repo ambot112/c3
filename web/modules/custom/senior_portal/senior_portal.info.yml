@@ -1,0 +1,5 @@
+name: 'UMass Cost Calculator'
+description: "UMass Cost Calculator."
+package: Custom
+type: module
+core_version_requirement: ^9 || ^10 || ^11

@@ -1,0 +1,32 @@
+_core:
+  default_config_hash: EUVmvCuV3nOP_zib9A7ugmeIZiec4nMj_TWVrq0eItU
+status:
+  duration: '3000'
+  color: '#67b99a'
+  color2: '#14746f'
+  colorProgressBar: '#0d514d'
+  direction: 'to right'
+  gravity: bottom
+  positionLeft: false
+  close: true
+warning:
+  duration: '3000'
+  color: '#ffaa00'
+  color2: '#ff6d00'
+  colorProgressBar: '#b24c00'
+  direction: 'to right'
+  gravity: bottom
+  positionLeft: false
+  close: true
+error:
+  duration: '3000'
+  color: '#e01e37'
+  color2: '#a71e34'
+  colorProgressBar: '#741424'
+  direction: 'to right'
+  gravity: bottom
+  positionLeft: false
+  close: true
+enable_for:
+  admin_theme: true
+  frontend_theme: true

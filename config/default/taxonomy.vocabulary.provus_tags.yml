@@ -1,0 +1,11 @@
+uuid: 1f33730a-1453-4300-a58d-722b51ea0d4e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WZo0zIo4rcT3GUJOSQ93u3-K4fVr9TIx-4qoFV98x5k
+name: Tags
+vid: provus_tags
+description: ''
+weight: 0
+new_revision: false

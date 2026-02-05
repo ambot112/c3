@@ -1,0 +1,13 @@
+uuid: b7016d20-4fcc-4827-95eb-4b494234443b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: _sAPbgzVsGqeeAtWeIw4tDqCkr0di_62ZXIbm0gPKF0
+id: node.provus_card_basic_plus
+label: 'Card Basic Plus'
+description: null
+targetEntityType: node
+cache: true

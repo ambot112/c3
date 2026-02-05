@@ -1,0 +1,17 @@
+uuid: cd7f9819-cdba-4e76-8d2f-6bc97aaf463e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8OjeRbIcgnMayGJzvDDbiDk1gc5K-7EqD7e0cavty8g
+name: testimonial_image_style
+label: 'Testimonial Image Style'
+effects:
+  3309f8ba-0c80-44c6-be08-1ed8425e4aa0:
+    uuid: 3309f8ba-0c80-44c6-be08-1ed8425e4aa0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 839
+      height: 580
+      anchor: center-center

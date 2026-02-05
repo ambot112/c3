@@ -1,0 +1,13 @@
+uuid: f17139d0-aff7-486c-8086-a0fe846c0d14
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: AD3a0gDEWoKwlWKAaKyCwi_mztjkxRl6MlZz_TKDwWA
+id: node.provus_card_image_circle
+label: 'Card Image Circle'
+description: null
+targetEntityType: node
+cache: true

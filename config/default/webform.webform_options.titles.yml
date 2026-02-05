@@ -1,0 +1,19 @@
+uuid: 37f4a835-584b-4530-93eb-ce32bfacc320
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: BesSeGrsOFesvnXU1i_LrnnjTKwW-8-Ra8nSy_i53lk
+id: titles
+label: Titles
+category: Demographic
+likert: false
+options: |
+  Miss: Miss
+  Ms: Ms
+  Mr: Mr
+  Mrs: Mrs
+  Dr: Dr

@@ -1,0 +1,13 @@
+uuid: ecceb6c5-b27d-4ab8-9a92-7e9963ecd50c
+langcode: en
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: 9uh49eKz8RxGhLQI4WvnMpgvKK40ja0NZNCtQQu0flA
+id: webform_open_action
+label: 'Open webform'
+type: webform
+plugin: webform_open_action
+configuration: {  }

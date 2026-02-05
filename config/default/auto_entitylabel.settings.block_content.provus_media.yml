@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: mnpc3jq6jr5V8qW1OOkO1ORovXVAKDdbN84Sjy59GoA
+status: 2
+pattern: '(Media) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_media
+chunk: '50'
+new_content_behavior: 0

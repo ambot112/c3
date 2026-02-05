@@ -1,0 +1,13 @@
+uuid: 2d55b145-fbc8-44c1-84d5-a32539530604
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: gVvIGdXc8WQuR3vz93OGzaM1V6onU5ZZwmj3ldxzuao
+id: media.provus_card_background
+label: 'Card Background'
+description: null
+targetEntityType: media
+cache: true

@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: vOCeIAv7xNYwOLGxVUsm2jp8OtFPZEhpzkza3wtekvQ
+status: 2
+pattern: '[block_content:field_provus_title] - (Banner) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+chunk: '50'
+dependencies:
+  config:
+    - block_content.type.provus_banner
+new_content_behavior: 0

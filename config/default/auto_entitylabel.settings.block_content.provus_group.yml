@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: j_gT0nwBxk0uQBo2-BhtdxvqfaTR7g68ukpp24wAeYk
+status: 2
+pattern: '[block_content:field_provus_title] (Group) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_group
+chunk: '50'
+new_content_behavior: 0

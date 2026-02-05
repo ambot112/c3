@@ -1,0 +1,7 @@
+services:
+  senior_portal.manager:
+    class: Drupal\senior_portal\UmassApiManager
+    arguments: [
+      '@http_client',
+      '@messenger',
+    ]

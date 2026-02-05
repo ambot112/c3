@@ -1,0 +1,16 @@
+uuid: 95fb371a-3506-4b28-b76a-8b6556a7bcc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.content_approver
+  module:
+    - user
+_core:
+  default_config_hash: h5SE85dtRUDy8RM5wFea8xz3Mwr6_Sq33xjLyNPWzPM
+id: user_add_role_action.content_approver
+label: 'Add the Content Approver role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: content_approver

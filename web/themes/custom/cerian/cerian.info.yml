@@ -1,0 +1,17 @@
+name: El Cerian Theme
+type: theme
+description: 'A Drupal theme with Vue.js 3 components integrated via Composition API.'
+package: Custom
+core_version_requirement: ^9 || ^10 || ^11
+base theme: false
+
+libraries:
+  - cerian/bootstrap
+  - cerian/tailwind
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

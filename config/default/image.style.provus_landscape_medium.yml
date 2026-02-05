@@ -1,0 +1,20 @@
+uuid: b3115a8f-3d46-4661-866c-b97729b1c9c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: 5slfxeEHrHcbwL1z3dWFHM0tU7RwBZO174S-25vmZ7Y
+name: provus_landscape_medium
+label: 'Landscape Medium'
+effects:
+  8e0f29c0-cdf3-45b1-9123-c3653b30772b:
+    uuid: 8e0f29c0-cdf3-45b1-9123-c3653b30772b
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1360
+      height: 680
+      crop_type: focal_point
+      anchor: center-center

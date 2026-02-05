@@ -1,0 +1,20 @@
+uuid: 5e26fd38-2d98-43a8-86eb-80c0974510dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: jsyWk-l-ronvy7x3m81TenpOqJTFx_t2EorA3eE_uSY
+name: linkit_result_thumbnail
+label: 'Linkit result thumbnail'
+effects:
+  2943df29-38ea-459c-ba1d-290489bb1807:
+    uuid: 2943df29-38ea-459c-ba1d-290489bb1807
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      anchor: center-center
+      crop_type: focal_point

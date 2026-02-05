@@ -1,0 +1,80 @@
+uuid: 767a4e42-7ef3-4d1e-8464-3753b54b82d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.provus_blog
+    - node.type.provus_landing_page
+  module:
+    - content_moderation
+_core:
+  default_config_hash: beJODcekNRGO5qicwsSPffaEG5YkIw1cW0XTZy1RAp0
+id: basic
+label: Basic
+type: content_moderation
+type_settings:
+  states:
+    draft:
+      label: Draft
+      weight: -2
+      published: false
+      default_revision: false
+    needs_review:
+      label: 'Needs Review'
+      weight: -1
+      published: false
+      default_revision: false
+    published:
+      label: Published
+      weight: 0
+      published: true
+      default_revision: true
+    unpublished:
+      label: Unpublished
+      weight: 1
+      published: false
+      default_revision: false
+  transitions:
+    create_new_draft:
+      label: 'Create New Draft'
+      from:
+        - draft
+      to: draft
+      weight: -3
+    publish:
+      label: Publish
+      from:
+        - draft
+        - needs_review
+        - published
+        - unpublished
+      to: published
+      weight: 0
+    send_to_draft:
+      label: 'Send to Draft'
+      from:
+        - needs_review
+        - published
+        - unpublished
+      to: draft
+      weight: -2
+    send_to_needs_review:
+      label: 'Send to Needs Review'
+      from:
+        - draft
+        - needs_review
+        - published
+        - unpublished
+      to: needs_review
+      weight: -1
+    unpublish:
+      label: Unpublish
+      from:
+        - published
+      to: unpublished
+      weight: 1
+  entity_types:
+    node:
+      - provus_blog
+      - provus_landing_page
+  default_moderation_state: draft

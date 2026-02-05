@@ -1,0 +1,27 @@
+_core:
+  default_config_hash: 1cnJU4pYcyuT5ZDAU8-ZT72W_Pk2wLXyXdrfOpbMhP0
+favicon:
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: themes/custom/cerian/drupal-icon.png
+  use_default: false
+third_party_settings:
+  shortcut:
+    module_link: true
+preset_accent_color: blue
+preset_focus_color: gin
+enable_darkmode: '0'
+classic_toolbar: vertical
+secondary_toolbar_frontend: false
+high_contrast_mode: false
+accent_color: ''
+focus_color: ''
+layout_density: ''
+show_description_toggle: false
+show_user_theme_settings: false
+icon_upload: ''

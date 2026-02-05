@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: DvEA7qDrbIK2mfmKIFerzdW9yNPa7y4zwQUKTNSVVVs
+langcode: en
+uuid: 477b4b5b-69ac-4bc8-bba6-95f04d455263
+name: 'C3 Test Website'
+mail: admin@example.com
+slogan: 'Configured by Brian Flores'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

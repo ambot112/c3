@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: mMHnDKsALH-yC4KCNx0lvfzYCo4k22M_we3iG1iz9yg
+status: 2
+pattern: '[block_content:field_provus_title] (CTA) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_cta
+chunk: '50'
+new_content_behavior: 0

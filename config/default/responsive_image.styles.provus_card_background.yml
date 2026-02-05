@@ -1,0 +1,80 @@
+uuid: 7193171f-5da6-4878-82eb-68e76179e08d
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.provus_card_background_desktop_1x
+    - image.style.provus_card_background_desktop_2x
+    - image.style.provus_card_background_mobile_1x
+    - image.style.provus_card_background_mobile_2x
+    - image.style.provus_card_background_tablet_1x
+    - image.style.provus_card_background_tablet_2x
+    - image.style.provus_card_default_tablet_1x
+    - image.style.provus_card_default_tablet_2x
+_core:
+  default_config_hash: OwzbcGdvpK5YpLPhg6Kgr8381JymU3lDDVwStFyMwZ8
+id: provus_card_background
+label: 'Card Background'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_desktop_1x
+    breakpoint_id: provus_base_theme.extraextra
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_desktop_1x
+    breakpoint_id: provus_base_theme.extra
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_desktop_2x
+    breakpoint_id: provus_base_theme.extraextra
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_desktop_2x
+    breakpoint_id: provus_base_theme.extra
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_tablet_1x
+    breakpoint_id: provus_base_theme.large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_default_tablet_2x
+    breakpoint_id: provus_base_theme.large
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_default_tablet_1x
+    breakpoint_id: provus_base_theme.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_tablet_2x
+    breakpoint_id: provus_base_theme.medium
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_mobile_1x
+    breakpoint_id: provus_base_theme.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_mobile_1x
+    breakpoint_id: provus_base_theme.xs
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_mobile_2x
+    breakpoint_id: provus_base_theme.small
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: provus_card_background_mobile_2x
+    breakpoint_id: provus_base_theme.xs
+    multiplier: 2x
+breakpoint_group: provus_base_theme
+fallback_image_style: provus_card_background_tablet_1x

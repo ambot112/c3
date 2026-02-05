@@ -1,0 +1,13 @@
+uuid: 02613650-e37d-46b8-999a-e6393440a138
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: D4XbRuVbsrWm_ZCPO_i_5Luz2M0Z_dVUX9dJxGIhHfI
+id: node.provus_event_list
+label: 'Event List'
+description: null
+targetEntityType: node
+cache: true

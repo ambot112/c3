@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: VLkT-Fh0JrKu5ggl6NxyjNiLr7rpgXqxw-aXwBexMTo
+status: 2
+pattern: '[block_content:field_provus_title] (Stat Item) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_stat_item
+chunk: '50'
+new_content_behavior: 0

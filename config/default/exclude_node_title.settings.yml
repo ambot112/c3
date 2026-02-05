@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: a_EXRfXokVSU2tHLT-BsxRL-gAyOAydZrqejaIQMWu4
+translation_sync: true
+search: false
+type: remove
+content_types:
+  provus_landing_page: user
+content_type_modes:
+  provus_landing_page:
+    - full

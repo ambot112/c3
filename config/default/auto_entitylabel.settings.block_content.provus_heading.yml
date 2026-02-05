@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: BzYl-hLiBy1-VRor3WrJvGEmFJqc9ahlFghTLky4LCo
+status: 2
+pattern: '[block_content:field_provus_title] (Heading) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_heading
+chunk: '50'
+new_content_behavior: 0

@@ -1,0 +1,19 @@
+uuid: 44f3a5ef-b30b-4469-a32e-dea6141a43d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: oH_dGzQH1HHVEPMOJ0vGG3MS4WpTof2z9ciN2TZ_tRs
+name: Blog
+type: provus_blog
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

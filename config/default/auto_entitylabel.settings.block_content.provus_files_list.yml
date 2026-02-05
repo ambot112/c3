@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: YYetkcZQqTe-8H3TJV9aXBMPML7Sk8LwkpyigXr5Imk
+status: 2
+pattern: '[block_content:field_provus_title] (Files List) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_files_list
+chunk: '50'
+new_content_behavior: 0

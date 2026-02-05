@@ -1,0 +1,31 @@
+uuid: ea194026-194b-4034-a67a-5617fbcd5fd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - senior_portal
+  theme:
+    - olivero
+id: olivero_umasscostcalculator
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: umass_cost_calculator
+settings:
+  id: umass_cost_calculator
+  label: 'Calculate Time and Cost'
+  label_display: '0'
+  provider: senior_portal
+  sge:
+    -
+      name: 'Typical Employer Assistance'
+      amount: '5250'
+  apply_now_url: 'https://www.umassglobal.edu/forms/umass-global-online-application'
+  bottom_text:
+    value: '<p>Please note that your Time-Cost Calculator results are only an estimate and do not include additional costs for items such as textbooks or university fees. In addition, transfer credits need to be reviewed and accepted by the university before applying to your program. For an in-depth estimate of university costs, please use the <a href="https://umassglobal.studentaidcalculator.com/survey.aspx">Net Price Calculator</a>, sponsored by the U.S. Department of Education. Their tool considers more variables, such as living expenses, to help undergraduate students estimate the total cost of university attendance. The Time-Cost Calculator does not replace the <a href="https://umassglobal.studentaidcalculator.com/survey.aspx">Net Price Calculator</a></p>'
+    format: basic_html
+  bottom_slider_text:
+    value: '<p>UMass Global cannot guarantee the transfer of credits. Transfers are determined on a case-by-case basis depending on equivalent courses in the degree program. All credits, both transfer and from past experience, are given at UMass Global’s discretion. Please contact the office of Admission for more information at <a href="mailto:apply@umassglobal.edu">apply@umassglobal.edu</a>.</p>'
+    format: basic_html
+visibility: {  }

@@ -1,0 +1,140 @@
+uuid: 40551b74-55d9-4473-bd6e-253466f391d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: Y8qzC61Mb8XF2-Zs24E1wPEVtNtAIWvMGyIx08mUjwM
+format: full_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - style
+      - bold
+      - italic
+      - strikethrough
+      - superscript
+      - subscript
+      - removeFormat
+      - '|'
+      - link
+      - bulletedList
+      - numberedList
+      - '|'
+      - blockQuote
+      - drupalMedia
+      - insertTable
+      - codeBlock
+      - horizontalLine
+      - '|'
+      - code
+  plugins:
+    ckeditor5_codeBlock:
+      languages:
+        -
+          label: 'Plain text'
+          language: plaintext
+        -
+          label: C
+          language: c
+        -
+          label: 'C#'
+          language: cs
+        -
+          label: C++
+          language: cpp
+        -
+          label: CSS
+          language: css
+        -
+          label: Diff
+          language: diff
+        -
+          label: HTML
+          language: html
+        -
+          label: Java
+          language: java
+        -
+          label: JavaScript
+          language: javascript
+        -
+          label: PHP
+          language: php
+        -
+          label: Python
+          language: python
+        -
+          label: Ruby
+          language: ruby
+        -
+          label: TypeScript
+          language: typescript
+        -
+          label: XML
+          language: xml
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_list:
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
+    ckeditor5_style:
+      styles:
+        -
+          label: Display
+          element: '<p class="basic-text-display">'
+        -
+          label: 'Subheadline 1'
+          element: '<p class="basic-text-subheadline-1">'
+        -
+          label: 'Subheadline 2'
+          element: '<p class="basic-text-subheadline-2">'
+        -
+          label: 'Body 1'
+          element: '<p class="basic-text-body-1">'
+        -
+          label: 'Body 2'
+          element: '<p class="basic-text-body-2">'
+        -
+          label: Caption
+          element: '<p class="basic-text-caption-1">'
+        -
+          label: 'Eyebrow Large'
+          element: '<p class="basic-text-eyebrow-large">'
+        -
+          label: Eyebrow
+          element: '<p class="basic-text-eyebrow-1">'
+        -
+          label: 'Button Small'
+          element: '<a class="outline-sm">'
+        -
+          label: 'Button Medium'
+          element: '<a class="outline-md">'
+        -
+          label: 'Button Large'
+          element: '<a class="outline-lg">'
+    linkit_extension:
+      linkit_enabled: true
+      linkit_profile: default
+    media_media:
+      allow_view_mode_override: false
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: 0
+    height: 0

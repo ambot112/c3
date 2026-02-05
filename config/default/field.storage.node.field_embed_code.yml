@@ -1,0 +1,19 @@
+uuid: 137fa3f5-3f7a-4189-b8aa-97224c47cd6b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_embed_code
+field_name: field_embed_code
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

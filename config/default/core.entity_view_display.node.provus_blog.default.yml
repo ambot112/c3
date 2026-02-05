@@ -1,0 +1,55 @@
+uuid: cff90e72-73b5-4a5b-8287-8b8e15fef804
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.provus_blog.body
+    - field.field.node.provus_blog.field_embed_code
+    - field.field.node.provus_blog.field_metatag
+    - node.type.provus_blog
+  module:
+    - metatag
+    - senior_portal
+    - text
+    - user
+_core:
+  default_config_hash: jnjCf-pLMIgg1lebsKyZ4Kv0A5RjWuQRrcFjIj4vouo
+id: node.provus_blog.default
+targetEntityType: node
+bundle: provus_blog
+mode: default
+content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_embed_code:
+    type: embed_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  links: true
+  search_api_excerpt: true

@@ -1,0 +1,13 @@
+uuid: ece900cb-2b77-446a-9a9f-fb9b241a628e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 4UY82lwuZ_xP_ri5HvCpB0BSKc3rS23F02nI5dDpn6s
+id: node.provus_card_icon_left
+label: 'Card Icon Left'
+description: null
+targetEntityType: node
+cache: true

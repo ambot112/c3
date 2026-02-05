@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: hbC33qfIMX_bGWuX4bHG3XLCIaXQMpE4v5wMsc--d-A
+status: 1
+pattern: '[block_content:field_provus_title] (FAQ Group) - [random:number]'
+escape: false
+preserve_titles: false
+dependencies:
+  config:
+    - block_content.type.provus_faq_group
+save: 0
+chunk: '50'

@@ -1,0 +1,22 @@
+{
+  "name": "cerian",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "sass assets/scss/tailwind.scss assets/css/tailwind.css --style=compressed && postcss assets/css/tailwind.css -o assets/css/tailwind.css"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.70.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18"
+  }
+}

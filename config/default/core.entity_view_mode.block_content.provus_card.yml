@@ -1,0 +1,13 @@
+uuid: 1faa1201-09f1-42e1-a2f1-8eb94f98928a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: VffugNASmkEZlnXP9csKb183zvxKJSIirDmikHx6xzY
+id: block_content.provus_card
+label: Card
+description: null
+targetEntityType: block_content
+cache: true

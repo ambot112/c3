@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: Ri3uaGL1woxtv1WDO8vsaXfI_da04q86H-SnmCGle90
+status: 2
+pattern: '[block_content:field_provus_title] (List Item) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_list_item
+chunk: '50'
+new_content_behavior: 0

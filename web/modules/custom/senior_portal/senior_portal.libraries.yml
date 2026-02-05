@@ -1,0 +1,8 @@
+main:
+  js:
+    js/build/static/js/main.js: {}
+  css:
+    component:
+      js/build/static/css/main.css: {}
+  dependencies:
+    - core/jquery

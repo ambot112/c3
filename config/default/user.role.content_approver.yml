@@ -1,0 +1,53 @@
+uuid: 5bea7d7f-c7a4-49b4-9760-456bc13c292e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.provus_blog
+    - node.type.provus_landing_page
+    - workflows.workflow.basic
+  module:
+    - content_moderation
+    - media
+    - node
+    - system
+    - toastify
+    - toolbar
+    - tour
+_core:
+  default_config_hash: UaPUorwi_BcfXWlqDawTeqxhS357DeIU725OHCS67-w
+id: content_approver
+label: 'Content Approver'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer media'
+  - 'administer nodes'
+  - 'create provus_blog content'
+  - 'create provus_landing_page content'
+  - 'delete all revisions'
+  - 'delete any provus_blog content'
+  - 'delete any provus_landing_page content'
+  - 'delete provus_blog revisions'
+  - 'delete provus_landing_page revisions'
+  - 'edit any provus_blog content'
+  - 'edit any provus_landing_page content'
+  - 'revert all revisions'
+  - 'revert provus_blog revisions'
+  - 'revert provus_landing_page revisions'
+  - 'show toastify messages'
+  - 'use basic transition create_new_draft'
+  - 'use basic transition publish'
+  - 'use basic transition send_to_draft'
+  - 'use basic transition send_to_needs_review'
+  - 'use basic transition unpublish'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view provus_blog revisions'
+  - 'view provus_landing_page revisions'
+  - 'view the administration theme'

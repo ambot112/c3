@@ -1,0 +1,23 @@
+uuid: 009824e4-cb8b-4cd2-925f-2c880c83eeb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.provus_landing_page
+  module:
+    - metatag
+_core:
+  default_config_hash: Gysd1I_ZKkSEBgvWrNRfTSWc1qChuR0i1vHGrkUPpMg
+id: node.provus_landing_page.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: provus_landing_page
+label: Metatag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: YTd-ePyV1PSaeN2rpZ0pQHC_--tClEG9zLVm36lnH34
+status: 2
+pattern: '[block_content:field_provus_title] (Basic Text) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_basic_text
+chunk: '50'
+new_content_behavior: 0

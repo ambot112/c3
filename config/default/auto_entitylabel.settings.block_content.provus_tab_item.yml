@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: nWEMf051U_QOcAawgO9_tFoxgJF2Cu0VYgebQ0VeLIU
+status: 2
+pattern: '[block_content:field_provus_title] (Tab Item) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_tab_item
+chunk: '50'
+new_content_behavior: 0

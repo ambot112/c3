@@ -1,0 +1,20 @@
+uuid: 2103ec93-204d-42f2-b867-99a7044a6d95
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cerian
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: cerian_page_title
+theme: cerian
+region: header
+weight: 3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

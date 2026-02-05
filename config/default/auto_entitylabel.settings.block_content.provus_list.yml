@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: Oj0IPteF2wMMEbHBY1omSpJrgfvs3GQGuuIXtq74aD0
+status: 2
+pattern: '(List) - [random:number]'
+escape: false
+preserve_titles: false
+save: false
+dependencies:
+  config:
+    - block_content.type.provus_list
+chunk: '50'
+new_content_behavior: 0

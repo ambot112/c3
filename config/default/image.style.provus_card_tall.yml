@@ -1,0 +1,17 @@
+uuid: 6afd7245-1b1d-4b37-833d-d699f5ab0e04
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j2_8aNiy4QqDxkfXihxZL0dqo66xGU6mmF-xFOGSd0I
+name: provus_card_tall
+label: 'Card Tall'
+effects:
+  dcc91ff0-5452-4156-a5b8-b64d5ae001c3:
+    uuid: dcc91ff0-5452-4156-a5b8-b64d5ae001c3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1336
+      height: 2124
+      anchor: center-center

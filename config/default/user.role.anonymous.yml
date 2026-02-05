@@ -1,0 +1,18 @@
+uuid: cfdc2a13-123d-448c-b51a-4c30b4a9827c
+langcode: en
+status: true
+dependencies:
+  module:
+    - bootstrap_site_alert
+    - media
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'view bootstrap site alerts'
+  - 'view media'
