@@ -112,6 +112,7 @@ module:
   webform_ui: 0
   webp: 0
   workflows: 0
+  minimal: 0
   bootstrap_styles: 1
   pathauto: 1
   views: 10
@@ -122,3 +123,4 @@ theme:
   bootstrap_sass: 0
   olivero: 0
   cerian: 0
+profile: minimal
